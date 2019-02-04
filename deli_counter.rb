@@ -12,7 +12,7 @@ def line (katz_deli)
     for i in 0..(katz_deli.length-1)
       s+= "#{i+1}. #{katz_deli[i]} "
     end
-    s=s[0..(s.length-1)]
+    s=s[0..(s.length-2)]
     puts "#{s}"
   end
   
