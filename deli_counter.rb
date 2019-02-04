@@ -12,3 +12,8 @@ def line (katz_deli)
     s+= "#{i}. katz_deli[i]"
   end
 end
+
+def take_a_number(katz_deli, s)
+  
+end  
+  
