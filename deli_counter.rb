@@ -9,10 +9,10 @@ def line (katz_deli)
 
   else
     s="The line is currently: "
-  for i in 1..(katz_deli.length)
-    s+= "#{i}. katz_deli[i]"
-  end
-  puts "#{s}"
+    for i in 1..(katz_deli.length)
+      s+= "#{i}. katz_deli[i]"
+    end
+    puts "#{s}"
   end
   
 end
