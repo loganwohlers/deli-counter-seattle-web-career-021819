@@ -12,6 +12,9 @@ def line (katz_deli)
   for i in 1..(katz_deli.length)
     s+= "#{i}. katz_deli[i]"
   end
+  puts "#{s}"
+  end
+  
 end
 
 def take_a_number(katz_deli, s)
